@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro','sans-serif';
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #10C6C8;
+    width: 100%;
+    height: 15vh;
+}
+header ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+}
+header a{
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+}
+header a:hover{
+    color: #000;
+}
+.secao-banner{
+    height: 60vh;
+    width: 100%;
+    background-image: url(../img/recepcao2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
