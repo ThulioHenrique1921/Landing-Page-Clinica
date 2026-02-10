@@ -7,12 +7,15 @@
 body{
      background-color: #fff;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 header{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #10C6C8;
+    background-color: #04D9D9;
     padding: 20px 10px 10px 10px;
 }
 header img{
@@ -30,7 +33,7 @@ header ul{
 header a{
     text-decoration: none;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 800;
     color: #fff;
 }
 
@@ -66,24 +69,109 @@ header a{
     font-size: clamp(1px, 1.2rem, 50px);
 }
 .subsecao-padrao{
-    max-width: 425px;
-    padding: 40px 0;
+    max-width: 400px;
+    padding: 20px 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
 }
+p {
+    font-size: clamp(0.5rem, 1vw + 0.8rem , 1rem);
+    color: #777777
+}
+h2 {
+    font-size: clamp(0.8rem, 1vw + 0.8rem , 1.4rem);
+    margin-bottom: 14px;   
+    font-weight: 600;
+    color: #333333;
+}
+.container-sobre h2:nth-child(2){
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
 .container-sobre{
-    padding-left: 20px;
-    font-size: 12px
+    padding-left: 2px;
+    
 }
 .container-sobre img{
     display: none;
 }
-.container-sobre ul{
+.container-sobre ul li{
     text-align: start;
-    font-size: 12px;
+    font-size: clamp(0.5rem, 1vw + 0.8rem , 1rem);
+    color:#777777;
 }
-
+.container-lista{
+    padding-left: 26px;
+}
+.container-cards{
+    padding: 20px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card {
+    width: 98%;
+    box-shadow: 0 2px 8px 0 #777777;
+    padding: 0  0 8px ;
+}
+.card img{
+    width: 100%;
+}
+small {
+    font-size: clamp(0.5rem, 1vw + 0.7rem , 1rem);
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #777777;
+}
+.subsecao-padrao a:last-child{
+    text-decoration: none;
+    width: 140px;
+    padding: 10px 20px;
+    background-color: #04D9D9;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 0 2px 0 #777777;
+}
+.mapa{
+    max-width: 400px;
+    height: 30vh;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+.mapa iframe{
+    width: 95%;
+    height: 100%;
+}
+footer {
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px 0 10px;
+    gap: 20px;
+    background-color: #0E7373;
+}
+footer p{
+    color:#fff;
+    font-size: clamp(0.5rem, 1vw + 0.8rem , 1rem);
+}
+footer img{
+    width: 120px;
+}
+.footer-conteudo{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
