@@ -1,0 +1,69 @@
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    header ul{
+        border: none;
+        justify-content: end;
+    }
+    .subsecao-padrao{
+        max-width: 600px;
+        margin: auto;
+    }    
+    .secao-contato{
+        width: 100%;   
+    }
+    
+    .mapa{
+    max-width: 100%;
+    height: 400px;
+    }
+    .mapa iframe{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 769px) {
+    header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    }
+    header ul{
+        border: none;
+        justify-content: end;
+    }
+    .subsecao-padrao{
+        max-width: 800px;
+    }
+    .container-sobre{
+        display: flex;
+        align-items: center;
+    }
+    .container-sobre img{
+        display: block;
+    }
+    .container-cards{
+        max-width: 1024px;
+        width: 1024px;
+        gap: 4vw;
+        flex-wrap: nowrap;
+    }
+    .card{
+        max-width: 40%;
+    }
+     .mapa{
+    max-width: 100%;
+    height: 600px;
+    }
+    .mapa iframe{
+        width: 90%;
+    }
+
+}
