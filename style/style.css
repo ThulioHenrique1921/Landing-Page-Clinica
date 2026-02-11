@@ -62,13 +62,7 @@ header a{
     opacity: 0.2;
     z-index: -1;
 }
-/*.secao-banner h1 {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: clamp(1px, 1.2rem, 50px);
-}
-*/
+
 .subsecao-padrao{
     margin: auto;
     max-width: 400px;
