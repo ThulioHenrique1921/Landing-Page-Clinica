@@ -31,6 +31,9 @@ header ul{
     border-top: #10989b solid 1px;
 }
 section ul{
+    padding: 10px;
+    max-width: 80%;
+    margin: 0 auto;
     background-color: #fff;
     display: flex;
     gap: 10px;
@@ -39,13 +42,11 @@ section ul{
     flex-direction: row;
     list-style: none;
     flex-wrap: wrap;
-    padding: 10px 3px;
     font-size: clamp(0.5rem, 1vw + 0.7rem , 1rem);
 }
 section ul a{
     text-decoration: none;
     color: #000000;
-    padding: 1px 0;
     border-bottom: #1dcaca solid 2px;
 }
 
@@ -66,8 +67,8 @@ header a{
     align-items: center;
 }
 .container-intro{
-    max-width: 280px;
-    margin: auto;
+    max-width: 90%;
+    margin: 20px auto;
 }
 .especialidade{
     margin-bottom: 15%;
@@ -84,6 +85,7 @@ h2{
     font-size: clamp(0.8rem, 1vw + 0.9rem , 1.4rem);
     font-weight: 600;
     color: #131313;
+    min-width: 20%;
 }
 h3 {
     font-size: clamp(0.8rem, 1vw + 0.8rem , 1.4rem);

@@ -16,8 +16,57 @@
         max-width: 90vw;
         margin: auto;
     }    
-    .especialidade{
-    width: 100%;
-    }
     
+   
+}
+@media screen and (min-width: 769px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    header ul{
+        border: none;
+        justify-content: end;
+    }
+    .subsecao-padrao{
+        padding: 0 40px;
+        min-width: 760px;
+        max-width: 1024px;
+        margin: auto;
+    }
+    .especialidade{
+        
+        height: 500px;
+        margin: 0;
+    }    
+    .especialidade-imagem{
+        width: 350px;
+        height: 300px;
+    }
+    .especialidade-imagem img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .especialidade-conteudo{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        padding: 0;
+        align-items: center;
+    }
+    table{
+        width: 80%;
+        height: 300px;
+        margin: 0;
+    }
+    thead th:first-child{
+    width: auto;
+    }
+    td{
+    height: auto;
+    }
 }
